@@ -6,6 +6,7 @@ public class Visitante {
     int idade;
 
     boolean possuiAcessoRestritoPorIdade() {
+
         return idade < IDADE_MINIMA_ACESSO_IRRESTRITO;
     }
 }
